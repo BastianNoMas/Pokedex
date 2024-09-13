@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Coloca las tarjetas una al lado de otra */
+    gap: 20px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permitir que las tarjetas bajen si no caben en una línea */
+    padding: 20px;
+  }
+  
+  .custom-card {
+    width: 300px; /* Ajusta el ancho de las tarjetas */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card img {
+    width: 300px; /* La imagen se ajusta al ancho de la tarjeta */
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción y no se deforme */
+  }
